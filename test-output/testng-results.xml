@@ -2,28 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-14T16:10:28 SAST" name="Default suite" finished-at="2024-10-14T16:10:31 SAST" duration-ms="3070">
+  <suite started-at="2024-10-14T18:15:23 SAST" name="Default suite" finished-at="2024-10-14T18:15:25 SAST" duration-ms="2789">
     <groups>
     </groups>
-    <test started-at="2024-10-14T16:10:28 SAST" name="Default test" finished-at="2024-10-14T16:10:31 SAST" duration-ms="3070">
-      <class name="day1.GETandPOST">
-        <test-method is-config="true" signature="setup()[pri:0, instance:day1.GETandPOST@4659191b]" started-at="2024-10-14T16:10:28 SAST" name="setup" finished-at="2024-10-14T16:10:29 SAST" duration-ms="471" status="PASS">
+    <test started-at="2024-10-14T18:15:23 SAST" name="Default test" finished-at="2024-10-14T18:15:25 SAST" duration-ms="2789">
+      <class name="currentWeatherForcast.WeatherGetRequest">
+        <test-method signature="test_4()[pri:0, instance:currentWeatherForcast.WeatherGetRequest@229c6181]" started-at="2024-10-14T18:15:23 SAST" name="test_4" finished-at="2024-10-14T18:15:25 SAST" duration-ms="2280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_1()[pri:1, instance:day1.GETandPOST@4659191b]" started-at="2024-10-14T16:10:29 SAST" name="test_1" finished-at="2024-10-14T16:10:31 SAST" duration-ms="2531" status="PASS">
+        </test-method> <!-- test_4 -->
+        <test-method signature="test_5()[pri:0, instance:currentWeatherForcast.WeatherGetRequest@229c6181]" started-at="2024-10-14T18:15:25 SAST" name="test_5" finished-at="2024-10-14T18:15:25 SAST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_1 -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:day1.GETandPOST@4659191b]" started-at="2024-10-14T16:10:31 SAST" name="setup" finished-at="2024-10-14T16:10:31 SAST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_2Post()[pri:2, instance:day1.GETandPOST@4659191b]" started-at="2024-10-14T16:10:31 SAST" name="test_2Post" finished-at="2024-10-14T16:10:31 SAST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_2Post -->
-      </class> <!-- day1.GETandPOST -->
+        </test-method> <!-- test_5 -->
+      </class> <!-- currentWeatherForcast.WeatherGetRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
