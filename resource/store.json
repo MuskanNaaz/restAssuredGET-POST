@@ -1,0 +1,106 @@
+{
+    "store": {
+        "Books": [
+            {
+                "ISBN": "ISBN-0-13-713526-2",
+                "Price": 85,
+                "Edition": 3,
+                "Title": "A First Course in Database Systems",
+                "Authors": [
+                    "Jeffrey",
+                    "Jennifer"
+                ]
+            },
+            {
+                "ISBN": "ISBN-0-13-815504-6",
+                "Price": 100,
+                "Edition": 3,
+                "Title": "Database Systems:The Complete Book",
+                "Authors": [
+                    "Hector",
+                    "Jeffrey"
+                ]
+            },
+	    {
+                "ISBN": "ISBN-0-13-815585-5",
+                "Price": 200,
+                "Edition": 3,
+                "Title": "Database Systems:The Complete Book",
+                "Authors": [
+                    "Timothy",
+                    "Jeffrey"
+                ]
+            },
+	   {
+                "ISBN": "ISBN-0-13-524604-6",
+                "Price": 100,
+                "Edition": 5,
+                "Title": "Database Systems:The fairyTales book",
+                "Authors": [
+                    "Seloneum",
+                    "Troffu"
+                ]
+            }
+        ]
+    }
+}
+
+#{	
+    "store": {	
+        "Books": [	
+            {	
+                "ISBN": "ISBN-0-13-713526-2",	
+                "Price": 85,	
+                "Edition": 3,	
+                "Title": "A First Course in Database Systems",	
+                "Authors": [	
+                    "Jeffrey",	
+                    "Jennifer"	
+                ]	
+            },	
+            {	
+                "ISBN": "ISBN-0-13-815504-6",	
+                "Price": 100,	
+                "Edition": 3,	
+                "Title": "Database Systems:The Complete Book",	
+                "Authors": [	
+                    "Hector",	
+                    "Jeffrey"	
+                ]	
+            },	
+	    {
+                "ISBN": "ISBN-0-13-815585-5",	
+                "Price": 200,	
+                "Edition": 3,	
+                "Title": "Database Systems:The Complete Book",	
+                "Authors": [	
+                    "Timothy",	
+                    "Jeffrey"	
+                ]	
+            },	
+	   {
+                "ISBN": "ISBN-0-13-524604-6",	
+                "Price": 100,	
+                "Edition": 5,	
+                "Title": "Database Systems:The fairyTales book",	
+                "Authors": [	
+                    "Seloneum",	
+                    "Troffu"	
+                ]	
+            }	
+        ]	
+    }	
+}	
+
+# $.store.Books[-2:].Title : [
+  "Database Systems:The Complete Book",
+  "Database Systems:The fairyTales book"
+]
+
+#$.store.Books[?(@.ISBN)] : get all the book having ISBN as a field
+
+#$.store.Books[1,2] : first two book array
+#$.store.Books[?(@.Edition== 5)] :  all books with edition five
+
+#$.store.Books[?(@.Price> 100)] : get all books whose is greater than 100
+#$..Authors :  get all the authors list

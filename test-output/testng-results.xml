@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-14T18:15:23 SAST" name="Default suite" finished-at="2024-10-14T18:15:25 SAST" duration-ms="2789">
+  <suite started-at="2024-10-15T09:37:51 SAST" name="Default suite" finished-at="2024-10-15T09:37:58 SAST" duration-ms="7095">
     <groups>
     </groups>
-    <test started-at="2024-10-14T18:15:23 SAST" name="Default test" finished-at="2024-10-14T18:15:25 SAST" duration-ms="2789">
-      <class name="currentWeatherForcast.WeatherGetRequest">
-        <test-method signature="test_4()[pri:0, instance:currentWeatherForcast.WeatherGetRequest@229c6181]" started-at="2024-10-14T18:15:23 SAST" name="test_4" finished-at="2024-10-14T18:15:25 SAST" duration-ms="2280" status="PASS">
+    <test started-at="2024-10-15T09:37:51 SAST" name="Default test" finished-at="2024-10-15T09:37:58 SAST" duration-ms="7095">
+      <class name="currentWeatherForcast.WeatherPathFinder">
+        <test-method signature="test_3()[pri:0, instance:currentWeatherForcast.WeatherPathFinder@4d154ccd]" started-at="2024-10-15T09:37:51 SAST" name="test_3" finished-at="2024-10-15T09:37:56 SAST" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+        <test-method signature="test_4()[pri:0, instance:currentWeatherForcast.WeatherPathFinder@4d154ccd]" started-at="2024-10-15T09:37:56 SAST" name="test_4" finished-at="2024-10-15T09:37:58 SAST" duration-ms="1876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_4 -->
-        <test-method signature="test_5()[pri:0, instance:currentWeatherForcast.WeatherGetRequest@229c6181]" started-at="2024-10-14T18:15:25 SAST" name="test_5" finished-at="2024-10-14T18:15:25 SAST" duration-ms="436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_5 -->
-      </class> <!-- currentWeatherForcast.WeatherGetRequest -->
+      </class> <!-- currentWeatherForcast.WeatherPathFinder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
