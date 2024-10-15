@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="currentWeatherForcast.WeatherPathFinder">
+      <class name="currentWeatherForcast.JsonServerRequest">
         <methods>
-          <include name="test_4"/>
+          <include name="test_3"/>
         </methods>
-      </class> <!-- currentWeatherForcast.WeatherPathFinder -->
+      </class> <!-- currentWeatherForcast.JsonServerRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
